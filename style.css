@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: hwb(0 89% 11%);
+}
+
+header {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 300;
+    margin: 50 300 40px 30;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 35px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #df1919;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.hero {
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 17px;
+    font-size: 25px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 900px;           
+}
+
+.hero p {
+    font-size: 15px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    font-size: 17px;
+}
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: yellow;
+    color: #df1919;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+}
